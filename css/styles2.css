@@ -57,10 +57,22 @@ form {
 input{
     color: #636262;
 }
-
+select{
+    color:rgb(0, 0, 0); 
+    background-color:rgb(240, 240, 240 ); 
+    border: #F0F0F0;
+    border-left: #F0F0F0;
+    border-radius:10px;
+    font-size: 10rem;
+    text-size-adjust: 10%;
+    text-align: left;
+    margin-top: 10px;
+    width: 30%;
+    height: 50px;
+}
 
 input {
-    color:rgb(112, 108, 108); 
+    color:rgb(0, 0, 0); 
     background-color:rgb(240, 240, 240 ); 
     border: #F0F0F0;
     border-radius:10px;
@@ -72,7 +84,7 @@ input {
     height: 50px;
 }
 option { 
-    color:rgb(112, 108, 108); 
+    color:rgb(0, 0, 0); 
     background-color:rgb(240, 240, 240 ); 
     border: #F0F0F0;
     border-radius:10px;

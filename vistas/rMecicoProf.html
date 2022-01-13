@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <link rel="shortcut icon" href="../IMG/logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <LINK REL=StyleSheet HREF="../css/styles1.css" TYPE="text/css" MEDIA=screen>
+    <LINK REL=StyleSheet HREF="../css/styles2.css" TYPE="text/css" MEDIA=screen>
 
     <!-- Bootstrap CSS v5.0.2 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -22,24 +22,18 @@
         <div class="row">
             <div class="col-12">
 <!--contenido de la vista-->
-                <table align="center" width="200" cellspacing="3" cellpadding="3" border="0" bgcolor="#CBF1F2" >
-                    <tr>
-                       <td bgcolor="#DAF5F6" align="center"><font size=3 color="#82A0A0" face="verdana, arial, helvetica"><b>Registrarme como</b> <a  style="color: rgb(56, 179, 168)" size=3>Terminos y condiciones</a> </font></td>
-                    </tr>
-                </table>
-                <br>
-                <br>
-                <br>
-                    <h1>Registrarme como <a style="color: rgb(56, 179, 168)">Profesional de la salud</a><h1>
+                    <td align="center"><font size=5 bgcolor="#949494"><a line-height:100%; style="color: rgb(35, 37, 37)"> Registrate como</a> <a line-height:100%; style="color: rgb(90, 182, 170)"> Medico</a></font></td>
                     <br>
-                    <td align="center"><font size=4 bgcolor="#949494" line-height:1px;><a line-height:100%; style="color: rgb(86, 94, 93)"> Registrate como medico comprador y obten descuentos <br> especiales en medicamentos</a></font></td>
+                    <td align="center"><font size=4 bgcolor="#949494"><a line-height:100%; style="color: rgb(35, 37, 37)"> y obten descuentos especiales en medicamentos</a></font></td>
                     <br>
                     <br>
                 <form action="">
-                    <select class="form-select-" width="60">
+                    <select class="form-select-">
+                        <label for="">Soy medico</label>
                         <option selected>Soy un medico</option>
                         <option value="1">Profecional de la salud</option>
                         <option value="2">Medico comprador</option>
+                        <br>
                         <!--<py
                       funcion validacion(){
                         if(value=="1"){
@@ -51,16 +45,39 @@
                         }
                       }
                       > -->
-                      </select>
+                    </select>
+                      <div class="columns">
+                        <div class="column">
+                          <!-- esta seria la "primer columna", dentro de este div pones un input -->
+                          <input type="text" id="name" placeholder="Nombre">
+                          <input type="text" name="lastName" id="lastname" placeholder="Apellido">
+                        </div>
+                        <div class="column">
+                            <br>
+                          <input type="email" id="email"placeholder="correo">
+                         
+                          <input type="tel" name="phone" id="phone" placeholder="telefono">
+                        
+                        </div>
                       
-                      
+                        <div class="column">
+                           <br>
+                           <input width="100" type="text" name="" id="especialidad" placeholder="Especialidad medica">
+                    
+                        </div>
+                        <div class="column">
+                            <br>
+                          <input type="file" id="diplmas" placeholder="Diploma">
+                          <input type="file" id="tageTaprof" placeholder="Targeta profecional">
+                        </div>
+                      </div>
                 </form>
                 <br>
                 <br>
                 
-                <table id="table1" align="center" width="200" cellspacing="3" cellpadding="3" border="0" bgcolor="#FEEAFF" >
+                <table id="table1" align="center" width="50" cellspacing="3" cellpadding="3" border="0" bgcolor="#FEEAFF" >
                     <tr>
-                       <td bgcolor="#ECE7EC" align="center" ><font size=2 color="#9F3DA2" face="verdana, arial"><b>Formule a sus pacientes de forma rapida y obtenfa beneficios al momento de realizar su pedido</b></font></td>
+                       <td bgcolor="#ECE7EC" align="center" ><font size=2 color="#9F3DA2" face="verdana, arial, helvetica"><b>Formule a sus pacientes de forma rapida y obtenfa beneficios <br> <br> <br> momento de realizar su pedido</b></font></td>
                     </tr>
                 </table>
                 <br>
